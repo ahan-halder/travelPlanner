@@ -1,6 +1,6 @@
 # Travel Planner
 
-This is the DSA Project for CS202M. The following steps will heplp you run the website locally
+This is the DSA Project for CS202M. The following steps will help you run the website locally.
 This project is a React-based Travel Planner web application that uses OpenStreetMap for map functionalities and employs Dijkstra's algorithm to calculate the optimal path between multiple points on the map.
 
 ## Features
