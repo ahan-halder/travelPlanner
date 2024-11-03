@@ -1,74 +1,35 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+# Travel Planner
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is the DSA Project for CS202M. The following steps will heplp you run the website locally
+This project is a React-based Travel Planner web application that uses OpenStreetMap for map functionalities and employs Dijkstra's algorithm to calculate the optimal path between multiple points on the map.
 
-## Available Scripts
+## Features
+- **Map Interface**: Interactive map to add points and visualize the best route.
+- **Dijkstra’s Algorithm**: Calculates the shortest path between selected points.
+- **Dynamic Route**: Visual representation of the calculated optimal path.
+- **Reset Functionality**: Option to reset the map and start afresh.
 
-In the project directory, you can run:
+## Prerequisites
+Before running this project, ensure you have the following installed on your system:
+- **Git**: To clone the project repository.
+- **Node.js**: To run the project locally.
 
-### `npm start`
+## Install Node and Git
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Refer to the installation guidelines of Git and Node to set them up and configure it. Optionally you may use command prompt or use Git Bash on VSCode.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Clone the repo
 
-### `npm test`
+Choose a directory and run these commands on Terminal.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+`git clone https://github.com/ahan-halder/travelPlanner.git`
 
-### `npm run build`
+cd into the root folder
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+`npm init`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+`npm install`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Start the website
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# travelPlanner
->>>>>>> 0467a87503a2f5137da25a0c10427d96f7cd6fae
+`npm run start`

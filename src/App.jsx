@@ -1,4 +1,6 @@
-import React from 'react';
+// src/App.jsx
+
+import React from 'react'; 
 import './App.css';
 import MapComponent from './components/MapComponent';
 
@@ -16,3 +18,4 @@ function App() {
 }
 
 export default App;
+// Exporting the App component as the default export
