@@ -1,0 +1,20 @@
+/* src/styles.css */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+h1 {
+    text-align: center;
+    margin: 20px;
+  }
+  
+.App {
+    height: 100vh;
+  }
+  
+.map-container {
+    cursor: crosshair; /* Change cursor to crosshair */
+  }
+  
